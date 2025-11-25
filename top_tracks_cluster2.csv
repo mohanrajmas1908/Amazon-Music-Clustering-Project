@@ -1,0 +1,11 @@
+song_mask,duration_ms,danceability,energy,loudness,speechiness,acousticness,instrumentalness,liveness,valence,tempo,followers,popularity_artists,release_year,duration_min,clusters,cluster_label,popularity_songs,name_song
+song35059,183624,0.45,0.329,-12.603,0.0441,0.818,0.00109,0.135,0.266,71.884,181450.0,80,2019,3.0604,2,Acoustic / Mellow tracks,89,Arcade
+song35262,210463,0.399,0.491,-10.778,0.0538,0.0563,0.00089,0.11,0.151,91.066,92599.0,73,2020,3.5077166666666666,2,Acoustic / Mellow tracks,87,Put Your Records On
+song35060,185147,0.453,0.35,-11.639,0.0425,0.827,0.00122,0.144,0.279,72.017,181450.0,80,2020,3.0857833333333335,2,Acoustic / Mellow tracks,83,Arcade
+song34687,198853,0.618,0.443,-9.681,0.0526,0.469,0.0,0.0829,0.167,119.949,99345.0,70,2017,3.314216666666667,2,Acoustic / Mellow tracks,83,Hold On
+song35331,230880,0.599,0.465,-4.95,0.0314,0.643,1.57e-06,0.149,0.0678,113.82,124549.0,76,2020,3.848,2,Acoustic / Mellow tracks,80,Control
+song34713,193200,0.551,0.402,-7.431,0.0262,0.676,0.0,0.0928,0.382,103.313,4755356.0,85,2018,3.22,2,Acoustic / Mellow tracks,80,Beautiful Crazy
+song34497,129600,0.765,0.327,-8.029,0.277,0.571,0.0479,0.0787,0.292,74.931,1302948.0,77,2016,2.16,2,Acoustic / Mellow tracks,80,Go Fuck Yourself
+song35129,212750,0.599,0.537,-7.625,0.0268,0.935,0.893,0.301,0.258,123.722,34054.0,66,2019,3.5458333333333334,2,Acoustic / Mellow tracks,79,YKWIM?
+song35572,159375,0.617,0.451,-9.323,0.0584,0.627,0.0,0.267,0.487,127.923,11417.0,65,2021,2.65625,2,Acoustic / Mellow tracks,79,Weak
+song35408,121949,0.785,0.343,-10.923,0.0862,0.593,0.0,0.103,0.468,118.065,46458.0,65,2020,2.0324833333333334,2,Acoustic / Mellow tracks,79,ALL GIRLS ARE THE SAME
