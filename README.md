@@ -2,26 +2,35 @@
 
 This project builds a complete unsupervised learning pipeline to group songs based on their audio characteristics. The goal is to extract meaningful musical segments that support:
 
-Personalized playlist curation
+	Personalized playlist curation
 
-Improved song discovery and recommendations
+	Improved song discovery and recommendations
 
-Artist and competitor analysis
+	Artist and competitor analysis
 
-Market segmentation for streaming platforms
+	Market segmentation for streaming platforms
 
-By leveraging clustering techniques, we transform raw musical attributes into actionable insights.
+	By leveraging clustering techniques, we transform raw musical attributes into actionable insights.
 
-📈 Scope
-This project demonstrates how clustering can be applied to music datasets for:
+📈 Project Scope
 
-Personalized Playlist Curation → Automatically group songs that sound similar.
+This repository demonstrates how clustering can enhance the music ecosystem:
 
-Improved Song Discovery → Suggest similar tracks based on user preferences.
+✔ Personalized Playlist Curation
 
-Artist Analysis → Identify competitive songs in the same audio cluster.
+Automatically group similar-sounding tracks for seamless listening experiences.
 
-Market Segmentation → Analyze listening patterns to optimize recommendations and promotions.
+✔ Song Discovery
+
+Recommend new music that aligns with user taste.
+
+✔ Artist Analysis
+
+Identify songs that compete within the same acoustic space.
+
+✔ Market Segmentation
+
+Analyze patterns across genres to inform marketing and promotional strategies.
 
 🛠️ Approach
 
@@ -29,12 +38,12 @@ The workflow is broken into clear, modular phases:
 
 1️⃣ Data Exploration & Preprocessing
 
-Load the dataset → single_genre_artists.csv
+	Load the dataset → single_genre_artists.csv
 
-Inspect schema, data types, missing values
+	Inspect schema, data types, missing values
 
-Drop non-informative columns:
-track_name, artist_name, track_id
+	Drop non-informative columns: track_name, artist_name, track_id
+
 
 Normalize features using StandardScaler
 
@@ -42,33 +51,30 @@ Normalize features using StandardScaler
 
 Selected audio features used for clustering:
 
-danceability
+	energy
 
-energy
+	loudness
 
-loudness
+	speechiness
 
-speechiness
+	acousticness
 
-acousticness
+	instrumentalness
 
-instrumentalness
+	liveness
 
-liveness
-
-valence
-
-
+	valence
 
 These features capture both musical composition and production style.
 
 3️⃣ Dimensionality Reduction (Optional)
 
-Used to simplify visualization and reduce noise:
+	Used to simplify visualization and reduce noise:
 
-PCA → Preserve variance
+	PCA → Preserve variance
 
-t-SNE → Capture non-linear relationships for 2D visualization
+	t-SNE → Capture non-linear relationships for 2D visualization
+
 
 4️⃣ Clustering Techniques
 
@@ -92,11 +98,12 @@ Dendrogram visualization for cluster merging history
 
 Metrics used:
 
-Silhouette Score
+	Silhouette Score
 
-Davies–Bouldin Index
+	Davies–Bouldin Index
 
-Inertia (for K-Means)
+	Inertia (for K-Means)
+
 
 Interpretation steps:
 
