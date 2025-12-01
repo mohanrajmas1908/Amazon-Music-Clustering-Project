@@ -115,6 +115,7 @@ Translate numeric patterns into human-readable musical insights, e.g.
 	Party / Club tracks
 	Acoustic / Mellow tracks
 	Rap / spoken word tracks
+
 6️⃣ Visualizations
 
 Multiple plots help interpret the audio landscape:
